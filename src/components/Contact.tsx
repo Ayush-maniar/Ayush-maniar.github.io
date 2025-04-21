@@ -15,13 +15,13 @@ const Contact: React.FC = () => {
         <p>Feel free to reach out via email or connect with me on social media.</p>
         <div className="contact-links">
            <a href={`mailto:${email}`} aria-label="Email">
-             {React.createElement(FaEnvelope)} <span>{email}</span>
+             <FaEnvelope /> <span>{email}</span>
            </a>
            <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-             {React.createElement(FaLinkedin)} <span>LinkedIn</span>
+             <FaLinkedin /> <span>LinkedIn</span>
            </a>
            <a href={githubUrl} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-             {React.createElement(FaGithub)} <span>GitHub</span>
+             <FaGithub /> <span>GitHub</span>
            </a>
            {/* Uncomment or remove Twitter link as needed */}
            {/*
