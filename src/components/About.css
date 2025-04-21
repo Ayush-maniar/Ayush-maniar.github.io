@@ -1,0 +1,104 @@
+/* About Section Styling */
+#about {
+  background-color: #111; /* Slightly different dark shade */
+}
+
+.about-horizontal {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 0;
+}
+
+.about-photo {
+  flex: 0 0 30%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.about-photo img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+  object-fit: cover;
+}
+
+.about-content {
+  flex: 0 0 70%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.about-content p {
+  margin-bottom: 15px;
+  color: #ccc;
+}
+
+.about-content h3 {
+    color: #a0f; /* Purple */
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.skills-list li {
+  background-color: #333;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.skills-list li:hover {
+    background-color: #a0f; /* Purple */
+    transform: scale(1.05);
+}
+
+.about-skills-full {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 24px;
+}
+
+.about-skills-full h3 {
+  color: #a0f;
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+@media (max-width: 700px) {
+  .about-horizontal {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .about-photo, .about-content {
+    flex: unset;
+    max-width: 100%;
+  }
+  .about-photo img {
+    max-width: 150px;
+  }
+}

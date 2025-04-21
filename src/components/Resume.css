@@ -1,0 +1,69 @@
+/* Resume Section Styling */
+#resume {
+    background-color: #0d0d0d; /* Darker shade */
+    text-align: center;
+}
+
+.resume-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    color: #ccc;
+}
+
+.resume-content p {
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
+
+.resume-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #a0f; /* Purple */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-bottom: 40px; /* Space before highlights */
+}
+
+.resume-button:hover {
+    background-color: #80f; /* Darker Purple */
+    transform: scale(1.05);
+}
+
+.resume-content h3 {
+    color: #f0a; /* Reddish-purple accent */
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.resume-content ul {
+    list-style: disc;
+    margin-left: 20px; /* Indent list */
+    text-align: left;
+    line-height: 1.8;
+}
+
+.resume-content li {
+    margin-bottom: 10px;
+}
+
+.resume-pdf-embed {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto 40px auto;
+    height: 900px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.5);
+    border-radius: 12px;
+    overflow: hidden;
+    background: #222;
+}
+
+.resume-pdf-embed iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 12px;
+    background: #fff;
+}
