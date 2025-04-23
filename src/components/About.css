@@ -88,17 +88,40 @@
   font-size: 1.8rem;
 }
 
+@media (max-width: 900px) {
+  .about-horizontal {
+    gap: 18px;
+    padding: 18px 0;
+  }
+  .about-photo img {
+    max-width: 140px;
+  }
+  .about-content {
+    font-size: 0.98rem;
+  }
+  .about-skills-full h3 {
+    font-size: 1.2rem;
+  }
+}
+
 @media (max-width: 700px) {
   .about-horizontal {
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 12px;
+    padding: 10px 0;
   }
   .about-photo, .about-content {
-    flex: unset;
     max-width: 100%;
   }
   .about-photo img {
-    max-width: 150px;
+    max-width: 110px;
+  }
+  .about-content {
+    text-align: center;
+    font-size: 0.95rem;
+  }
+  .about-skills-full {
+    padding-top: 10px;
   }
 }
