@@ -8,7 +8,7 @@ const Home: React.FC = () => {
   return (
     <div id="home">
       <section className="hero-section">
-        <h1>Hi, this is Ayush Maniar</h1>
+        <h1>Hi, I'm Ayush Maniar</h1>
         <p>MS CSE Student @ UCSD | Ex-Data Scientist - III @ Walmart</p>
         {/* Add more introductory elements if desired */}
       </section>
